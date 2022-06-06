@@ -39,7 +39,7 @@ function myFunction (event) {
         td7.innerText = "Senior"
     } else if (exp>=2 || exp<=5) {
         td7.innerText = "Junior"
-    } else {
+    } else if (exp<=1) {
         td7.innerText = "Fresher"
     }
     
